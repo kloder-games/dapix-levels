@@ -1,0 +1,4 @@
+projectmanager:
+    settings:
+        '*':
+            'editor.tabLength': 2

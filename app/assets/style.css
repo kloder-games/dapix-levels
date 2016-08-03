@@ -1,0 +1,35 @@
+::-webkit-scrollbar { width: 11px; height: 11px; }
+::-webkit-scrollbar-button { width: 0px; height: 0px; }
+::-webkit-scrollbar-thumb { background: #595D63; border-width: 0px; border-radius: 50px; }
+::-webkit-scrollbar-thumb:hover { background: #868A92; }
+::-webkit-scrollbar-thumb:active { background: #868A92; }
+::-webkit-scrollbar-track { background: #353B45; border-width: 0px; border-radius: 50px; }
+::-webkit-scrollbar-track:hover { background: #353B45; }
+::-webkit-scrollbar-track:active { background: #353B45; }
+::-webkit-scrollbar-corner { background: transparent; }
+
+* {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none; 
+}
+
+.btn-toolbar label, .btn-toolbar button, .btn-toolbar input, .btn-toolbar span.input-group-addon, .btn-secondary, input, .form-control {
+    background-color: #353B45;
+    color: #A3A6AC;
+    border-color: #181A1F;
+}
+
+.btn-toolbar label.active, .btn-toolbar button.active, .btn-toolbar input.active, .btn-toolbar span.input-group-addon.active, .btn-secondary.active, input.active, .form-control.active,
+.btn-toolbar label.active:hover, .btn-toolbar button.active:hover, .btn-toolbar input.active:hover, .btn-toolbar span.input-group-addon.active:hover, .btn-secondary.active:hover, input.active:hover, .form-control.active:hover,
+.btn-toolbar label:hover, .btn-toolbar button:hover, .btn-toolbar input:hover, .btn-toolbar span.input-group-addon:hover, .btn-secondary:hover, input:hover, .form-control:hover,
+.btn-toolbar label:focus, .btn-toolbar button:focus, .btn-toolbar input:focus, .btn-toolbar span.input-group-addon:focus, .btn-secondary:focus, input:focus, .form-control:focus
+{
+    color: #A3A6AC;
+    background-color: #21252B;
+    background-image: none;
+    border-color: #181A1F;
+}
