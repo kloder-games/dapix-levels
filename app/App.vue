@@ -61,7 +61,7 @@ export default {
         return {
 
             showGrid: true,
-            tool: 'brush',
+            tool: 'select',
             zoom: 1,
             coords: { x: 0, y: 0 },
             hints: 'Dapix Levels 0.1.0 | Node ' + process.versions.node + ' | Chrome ' + process.versions.chrome + ' | Electron ' + process.versions.electron,

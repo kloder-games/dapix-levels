@@ -47,6 +47,11 @@
                     />
                     <div v-else class="property-not-editable">{{ val }}</div>
                 </td>
+                <td>
+                    <a href="javascript:;" @click="remove" v-show="key!='ID' && type!='Instance'" class="pull-right">
+                        <i class="fa fa-trash-o"></i>
+                    </a>
+                </td>
             </tr>
         </table>
     </div>
