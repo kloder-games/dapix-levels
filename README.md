@@ -3,7 +3,7 @@ Level editor
 
 ## Introduction
 This project is based on Electron and VueJS, using EaselJS for manage the canvas element.
-Is an intent to make an powerful editor for levels and Open Source, and a behaviour that cover all the current and future works.
+More info on the web: https://jlopezcur.github.io/dapix-levels/
 
 ## Current state
 
