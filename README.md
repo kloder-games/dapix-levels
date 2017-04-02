@@ -3,7 +3,7 @@ Level editor
 
 ## Introduction
 This project is based on Electron and VueJS, using EaselJS for manage the canvas element.
-More info on the web: https://jlopezcur.github.io/dapix-levels/
+More info on the web: https://kloder-games.github.io/dapix-levels/
 
 ## Current state
 
